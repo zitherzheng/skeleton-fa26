@@ -214,6 +214,8 @@ public class LinkedListDeque61BTest {
         assertThat(lld.isEmpty()).isFalse();
         lld.removeLast();
         assertThat(lld.isEmpty()).isTrue();
+        lld.removeFirst();
+        assertThat(lld.isEmpty()).isTrue();
     }
 
 }
